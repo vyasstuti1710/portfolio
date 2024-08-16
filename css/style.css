@@ -1,0 +1,129 @@
+
+.bg-clr {
+    background-color:rgb(252, 246, 246);
+}
+
+.content {
+    background-color:rgba (0,0,0,.7) ;
+}
+
+.brandName {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-clr {
+    background-color: rgb(211, 153, 28);
+}
+
+.mylogo {
+    height:85px;
+}
+
+.h4style {
+    color:#ffd000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align:center;
+    padding-bottom:35px;
+    margin-top:105px;
+  }
+
+  .h4style-ftr {
+    color:#ffd000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align:center;
+  }
+
+.fontColorWhite {
+    color:rgb(56, 46, 46);
+}
+
+.carousel-img {
+  width:85%;
+  height:50%;
+}
+
+.carousel-caption {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width:70%;
+    height:70%;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Show the caption on hover */
+  .carousel-item:hover .carousel-caption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: background for better text visibility */
+    padding: 10px; /* Optional: padding around the text */
+    color: rgb(255, 255, 255); 
+    margin: 45px;/* Optional: text color */
+  }
+  
+  /* Optional: styling for text */
+  .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: :Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+  }
+
+.color {
+    color: rgb(56, 43, 43);
+}
+
+.form-w {
+    width:50%;
+}
+
+.color-btn {
+    background-color:#ffd000;
+    color: rgb(100, 49, 2);
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  footer a {
+    color: #fff; /* White color for icons */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  footer a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+@media only screen and (max-width:450px){
+  .carousel-padding {
+    padding:0;
+  }
+
+  .carousel-width {
+    width:100%;
+  }
+
+  .img-ht {
+    height:300px;
+  }
+}
+
+@media only screen and (min-width:451px){
+  .carousel-padding {
+    padding:5px;
+  }
+
+  .carousel-width {
+    width:50%;
+  }
+
+  .img-ht {
+    height:450px;
+  }
+}
